@@ -22,7 +22,7 @@ BlockingQueue的成员函数主要是以下几种：
      poll poll()     //取队列顶部元素
      take take()     //获取顶部元素，队列为空则阻塞线程
      poll(time, unit)//取队列顶部元素，队列为空则最多等待超市时间time
-   </tr>
+   
 #### 3.Examine
      drainTo(Collection<? super E> c) //转移当前队列元素到新的队列，返回为转移的元素数量
      peek()      //获取队列顶部元素，但是不会移除
